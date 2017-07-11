@@ -23,3 +23,15 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 > npm install
 > npm start
 ```
+react-redux#connect = HOC liga o provider(que possui o Redux Store
+aos componentes melhorados via connect).
+
+**Parte do componente Router, se o Route tiver um
+filho Route, o componente pai(Header) será o responsável
+a renderizar o filho chamando abaixo**
+
+    {this.props.children}
+
+<Route> (Pai)
+    <Route /> (Filho)
+<Route>
